@@ -966,7 +966,8 @@ ul {
   border: 1px solid white;
 }
 
-.footer-subscribe__email:not(:placeholder-shown) + .form-name {
+.footer-subscribe__email:not(:placeholder-shown)
++ .footer-subscribe__name--email {
   opacity: 0;
 }
 

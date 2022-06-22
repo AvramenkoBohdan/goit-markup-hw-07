@@ -77,11 +77,13 @@
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     drop-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .footer-subscribe__email:focus,
 .footer-subscribe__email:not(:placeholder-shown) {
   border: 1px solid white;
 }
-.footer-subscribe__email:not(:placeholder-shown) + .form-name {
+.footer-subscribe__email:not(:placeholder-shown)
+  + .footer-subscribe__name--email {
   opacity: 0;
 }
 
