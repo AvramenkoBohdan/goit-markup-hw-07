@@ -37,6 +37,10 @@
   border: none;
   color: var(--main-white-color);
   outline: transparent;
+
+  @media screen and (min-width: 480px) {
+    margin: 0 auto;
+  }
 }
 
 .button-submit__icon {
